@@ -10,6 +10,13 @@
 |
 */
 
+$hook['pre_controller'] = array(
+    'class' => 'Security',
+    'function' => 'sec',
+    'filename' => 'security.php',
+    'filepath' => 'hooks',
+    'params' => array()
+);
 
 
 /* End of file hooks.php */
