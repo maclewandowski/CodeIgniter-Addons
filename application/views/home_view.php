@@ -72,7 +72,7 @@
 			<div id="body">
 				<p>All sources are available on GitHub.</p>
 
-				<code>https://github.com/Wampirue/CodeIgniter-Addons</code>
+				<code><a href="https://github.com/Wampirue/CodeIgniter-Addons">https://github.com/Wampirue/CodeIgniter-Addons</a></code>
 
 				<p>Users-Login-Addon preview:</p>
 
