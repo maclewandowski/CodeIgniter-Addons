@@ -36,6 +36,17 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
+/*
+|--------------------------------------------------------------------------
+| Security
+|--------------------------------------------------------------------------
+|
+| Security strings - change to your own random ones
+|
+*/
+
+define('PASSWD_SALT',							'salt-123456');
+define('PASSWD_PEPPER',							'pepper-123456');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

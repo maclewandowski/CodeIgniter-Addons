@@ -24,7 +24,7 @@ class Login_model extends CI_Model {
 		if ($this->input->post('login') && $this->input->post('passwd')) {
 
 			$login = $this->input->post('login');
-			$passwd = md5($this->input->post('passwd'));
+			$passwd = sha1(md5($this->input->post('passwd') . sha1(PASSWD_SALT)) . PASSWD_PEPPER);
 
 			$query = $this->db->query("SELECT id FROM users WHERE login='$login' AND passwd='$passwd'");
 
